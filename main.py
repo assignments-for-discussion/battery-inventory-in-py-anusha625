@@ -22,6 +22,4 @@ def test_bucketing_by_number_of_cycles():
 if __name__ == '__main__':
   test_bucketing_by_number_of_cycles()
 
-  charged less than 400 times: classified as low
-charged between 400 and 919 times: classified as medium
-charged 920 times or more: classified as high
+ 
