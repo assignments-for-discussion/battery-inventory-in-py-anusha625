@@ -14,7 +14,7 @@ def test_bucketing_by_number_of_cycles():
     assert(counts["lowCount"] == 2)
   if (charge < 400 && charge < 919):
     assert(counts["mediumCount"] == 3)
-  else:
+  if charge >=920:
     assert(counts["highCount"] == 1)
   print("Done counting :)")
 
